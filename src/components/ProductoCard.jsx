@@ -1,8 +1,8 @@
-function ProductoCard({nombre, precio}){
-    return(
+function ProductoCard(){
+    return (
         <article>
-            <h2>{nombre}</h2>
-            <p>Precio: ${precio}</p>
+            <h2>Laptop</h2>
+            <p>Precio: S/ 2500</p>
         </article>
     );
 }
